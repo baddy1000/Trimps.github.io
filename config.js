@@ -22,7 +22,7 @@ function newGame () {
 var toReturn = {
 	global: {
 		version: 4.32,
-		isBeta: false,
+		isBeta: true,
 		killSavesBelow: 0.13,
 		playerGathering: "",
 		playerModifier: 100000,
