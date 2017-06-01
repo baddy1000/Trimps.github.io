@@ -25,7 +25,7 @@ var toReturn = {
 		isBeta: true,
 		killSavesBelow: 0.13,
 		playerGathering: "",
-		playerModifier: 1,
+		playerModifier: 10000,
 		buildingsQueue: [],
 		timeLeftOnCraft: 0,
 		crafting: "",
