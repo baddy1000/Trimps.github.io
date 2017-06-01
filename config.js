@@ -2623,7 +2623,7 @@ var toReturn = {
 	badGuyDeathTexts: ["slew", "killed", "destroyed", "extinguished", "liquidated", "vaporized", "demolished", "ruined", "wrecked", "obliterated"],
 	
 	settings: {
-		speed: 100000000,
+		speed: 1,
 		speedTemp: 0,
 		slowdown: false,
 	},
