@@ -2265,7 +2265,7 @@ function gather() {
 			}
 			perSec += getPlayerModifier();
 		}
-        amount = perSec / game.settings.speed;
+        amount = perSec / game.settings.speed*1000;
 		if (game.options.menu.useAverages.enabled) perSec += getAvgLootSecond(increase);
 		if (game.resources[increase].max > 0){
 			var timeToFillElem = document.getElementById(increase + "TimeToFill");
